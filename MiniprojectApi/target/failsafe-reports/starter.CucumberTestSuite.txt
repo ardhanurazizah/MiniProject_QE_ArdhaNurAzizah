@@ -1,4 +1,76 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.476 s - in starter.CucumberTestSuite
+Tests run: 38, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 56.315 s <<< FAILURE! - in starter.CucumberTestSuite
+User.GET - As admin I cannot get all product data  Time elapsed: 1.151 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+
+User.GET - As admin I cannot get one detail product data  Time elapsed: 0.915 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+
+User.GET - As admin I cannot get product ratings  Time elapsed: 0.731 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+
+User.DELETE - As admin I cannot delete product  Time elapsed: 0.345 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <500> but was <200>.
+
+
+User.GET - As admin I cannot get category by ID  Time elapsed: 0.546 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+
+User.GET - As admin I cannot get all categories  Time elapsed: 0.504 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+
+User.DELETE - As admin cannot delete product categories  Time elapsed: 0.318 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+
+User.GET - As admin I cannot get user information  Time elapsed: 0.456 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+
+User.POST - As admin I cannot login  Time elapsed: 0.303 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
+User.GET - As admin I cannot get index  Time elapsed: 0.424 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+
+User.GET - As admin I cannot get all orders  Time elapsed: 0.451 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+
+User.GET - As admin I cannot get order by ID  Time elapsed: 0.533 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+

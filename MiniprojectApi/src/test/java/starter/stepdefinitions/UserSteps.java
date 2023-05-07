@@ -29,6 +29,18 @@ public class UserSteps {
     }
 
     @Steps
+    NGetAllProduct nGetAllProduct;
+    @Given("I set unmatched GET api endpoints")
+    public void iSetUnmatchedGETApiEndpoints() {
+        nGetAllProduct.iSetUnmatchedGETApiEndpoints();
+    }
+
+    @Then("I receive valid HTTP response code 404")
+    public void iReceiveValidHTTPResponseCode404() {
+        nGetAllProduct.iReceiveValidHTTPResponseCode404();
+    }
+
+    @Steps
     GetProductId productId;
     @Given("I set GET api endpoints by Id")
     public void iSetGETApiEndpointsById() {
@@ -37,6 +49,13 @@ public class UserSteps {
     @And("I receive valid data for one detail product")
     public void iReceiveValidDataForOneDetailProduct() {
         productId.iReceiveValidDataForOneDetailProduct();
+    }
+
+    @Steps
+    NGetProductId nGetProductId;
+    @Given("I set unmatched GET api endpoints by Id")
+    public void iSetUnmatchedGETApiEndpointsById() {
+        nGetProductId.iSetUnmatchedGETApiEndpointsById();
     }
 
     @Steps
@@ -51,6 +70,13 @@ public class UserSteps {
     }
 
     @Steps
+    NGetProductRatings nGetProductRatings;
+    @Given("I set unmatched GET api endpoints product ratings")
+    public void iSetUnmatchedGETApiEndpointsProductRatings() {
+        nGetProductRatings.iSetUnmatchedGETApiEndpointsProductRatings();
+    }
+
+    @Steps
     GetProductComments productComments;
     @Given("I set GET api endpoints product comments")
     public void iSetGETApiEndpointsProductComments() {
@@ -59,6 +85,13 @@ public class UserSteps {
     @And("I receive valid data for product comments")
     public void iReceiveValidDataForProductComments() {
         productComments.iReceiveValidDataForProductComments();
+    }
+
+    @Steps
+    NGetProductComments nGetProductComments;
+    @Given("I set unmatched GET api endpoints product comments")
+    public void iSetUnmatchedGETApiEndpointsProductComments() {
+        nGetProductComments.iSetUnmatchedGETApiEndpointsProductComments();
     }
 
     @Steps
@@ -71,6 +104,18 @@ public class UserSteps {
     @When("I send DELETE HTTP request")
     public void iSendDELETEHTTPRequest() {
         delProduct.iSendDELETEHTTPRequest();
+    }
+
+    @Steps
+    NDelProduct nDelProduct;
+    @Given("I set unmatched DELETE api endpoints product")
+    public void iSetUnmatchedDELETEApiEndpointsProduct() {
+        nDelProduct.iSetUnmatchedDELETEApiEndpointsProduct();
+    }
+
+    @Then("I receive valid HTTP response code 500")
+    public void iReceiveValidHTTPResponseCode500(){
+        nDelProduct.iReceiveValidHTTPResponseCode500();
     }
 
     @Steps
@@ -93,6 +138,18 @@ public class UserSteps {
     }
 
     @Steps
+    NPostProduct nPostProduct;
+    @And("I set unmatched POST api endpoints product")
+    public void iSetUnmatchedPOSTApiEndpointsProduct() {
+        nPostProduct.iSetUnmatchedPOSTApiEndpointsProduct();
+    }
+
+    @Then("I receive valid login and product HTTP response code 404")
+    public void iReceiveValidLoginAndProductHTTPResponseCode404() {
+        nPostProduct.iReceiveValidLoginAndProductHTTPResponseCode404();
+    }
+
+    @Steps
     PostProductRating postProductRating;
     @And("I set POST api endpoints rating")
     public void iSetPOSTApiEndpointsRating() {
@@ -105,6 +162,13 @@ public class UserSteps {
     @And("I receive valid data for rating")
     public void iReceiveValidDataForRating() {
         postProductRating.iReceiveValidDataForRating();
+    }
+
+    @Steps
+    NPostProductRating nPostProductRating;
+    @And("I set unmatched POST api endpoints rating")
+    public void iSetUnmatchedPOSTApiEndpointsRating() {
+        nPostProductRating.iSetUnmatchedPOSTApiEndpointsRating();
     }
 
     @Steps
@@ -122,6 +186,13 @@ public class UserSteps {
         postProductComment.iReceiveValidDataForComment();
     }
 
+    @Steps
+    NPostProductComment nPostProductComment;
+    @And("I set unmatched POST api endpoints comment")
+    public void iSetUnmatchedPOSTApiEndpointsComment() {
+        nPostProductComment.iSetUnmatchedPOSTApiEndpointsComment();
+    }
+
     //    ============================Product Category============================
     @Steps
     GetCatId catId;
@@ -132,6 +203,13 @@ public class UserSteps {
     @And("I receive valid data for category by ID")
     public void iReceiveValidDataForCategoryByID() {
         catId.iReceiveValidDataForCategoryByID();
+    }
+
+    @Steps
+    NGetCatId nGetCatId;
+    @Given("I set unmatched GET api endpoints category Id")
+    public void iSetUnmatchedGETApiEndpointsCategoryId() {
+        nGetCatId.iSetUnmatchedGETApiEndpointsCategoryId();
     }
 
     @Steps
@@ -146,10 +224,24 @@ public class UserSteps {
     }
 
     @Steps
+    NGetAllCat nGetAllCat;
+    @Given("I set unmatched GET api endpoints all categories")
+    public void iSetUnmatchedGETApiEndpointsAllCategories() {
+        nGetAllCat.iSetUnmatchedGETApiEndpointsAllCategories();
+    }
+
+    @Steps
     DelProductCat delProductCat;
     @Given("I set DELETE api endpoints product categories")
     public void iSetDELETEApiEndpointsProductCategories() {
         delProductCat.iSetDELETEApiEndpointsProductCategories();
+    }
+
+    @Steps
+    NDelProductCAt nDelProductCAt;
+    @Given("I set unmatched DELETE api endpoints product categories")
+    public void iSetUnmatchedDELETEApiEndpointsProductCategories() {
+        nDelProductCAt.iSetUnmatchedDELETEApiEndpointsProductCategories();
     }
 
     @Steps
@@ -166,6 +258,13 @@ public class UserSteps {
         postProductCat.iSetPOSTApiEndpointsProductCategory();
     }
 
+    @Steps
+    NPostProductCat nPostProductCat;
+    @And("I set unmatched POST api endpoints product category")
+    public void iSetUnmatchedPOSTApiEndpointsProductCategory() {
+        nPostProductCat.iSetUnmatchedPOSTApiEndpointsProductCategory();
+    }
+
     //    ============================Authentication============================
     @Steps
     GetUser getUser;
@@ -179,10 +278,27 @@ public class UserSteps {
     }
 
     @Steps
+    NGetUser nGetUser;
+    @Given("I set unmatched GET api endpoints user information")
+    public void iSetUnmatchedGETApiEndpointsUserInformation() {
+        nGetUser.iSetUnmatchedGETApiEndpointsUserInformation();
+    }
+
+    @Steps
     PostRegister postRegister;
     @Given("I set POST api endpoints register")
     public void iSetPOSTApiEndpointsRegister() {
         postRegister.iSetPOSTApiEndpointsRegister();
+    }
+    @And("I send POST HTTP request post register")
+    public void iSendPOSTHTTPRequestPostRegister() { postRegister.iSendPOSTHTTPRequestPostRegister();
+    }
+
+    @Steps
+    NPostRegister nPostRegister;
+    @Then("I receive valid login and product HTTP response code 405")
+    public void iReceiveValidLoginAndProductHTTPResponseCode405() {
+        nPostRegister.iReceiveValidLoginAndProductHTTPResponseCode405();
     }
 
     @And("I receive valid data for register")
@@ -200,11 +316,18 @@ public class UserSteps {
     public void iSendPOSTHTTPRequestLogin() {
         postLogin.iSendPOSTHTTPRequestLogin();
     }
-
     @And("I receive valid data for login")
     public void iReceiveValidDataForLogin() {
         postLogin.iReceiveValidDataForLogin();
     }
+
+    @Steps
+    NPostLogin nPostLogin;
+    @Then("I receive valid HTTP response code 400")
+    public void iReceiveValidHTTPResponseCode400() {
+        nPostLogin.iReceiveValidHTTPResponseCode400();
+    }
+
     //    ============================Hello============================
     @Steps
     GetIndex getIndex;
@@ -216,6 +339,14 @@ public class UserSteps {
     public void iReceiveValidDataForIndex() {
         getIndex.iReceiveValidDataForIndex();
     }
+
+    @Steps
+    NGetIndex nGetIndex;
+    @Given("I set unmatched GET api endpoints index")
+    public void iSetUnmatchedGETApiEndpointsIndex() {
+        nGetIndex.iSetUnmatchedGETApiEndpointsIndex();
+    }
+
     //    ============================Orders============================
     @Steps
     GetAllOrders getAllOrders;
@@ -229,6 +360,13 @@ public class UserSteps {
     }
 
     @Steps
+    NGetOrder nGetOrder;
+    @Given("I set unmatched GET api endpoints all orders")
+    public void iSetUnmatchedGETApiEndpointsAllOrders() {
+        nGetOrder.iSetUnmatchedGETApiEndpointsAllOrders();
+    }
+
+    @Steps
     GetOrderId getOrderId;
     @Given("I set GET api endpoints order Id")
     public void iSetGETApiEndpointsOrderId() {
@@ -237,6 +375,13 @@ public class UserSteps {
     @And("I receive valid data for order by ID")
     public void iReceiveValidDataForOrderByID() {
         getOrderId.iReceiveValidDataForOrderByID();
+    }
+
+    @Steps
+    NGetOrderId nGetOrderId;
+    @Given("I set unmatched GET api endpoints order Id")
+    public void iSetUnmatchedGETApiEndpointsOrderId() {
+        nGetOrderId.iSetUnmatchedGETApiEndpointsOrderId();
     }
 
     @Steps
@@ -254,4 +399,12 @@ public class UserSteps {
     @And("I send POST HTTP request post order")
     public void iSendPOSTHTTPRequestPostOrder() { postOrder.iSendPOSTHTTPRequestPostOrder();
     }
+
+    @Steps
+    NPostOrder nPostOrder;
+    @And("I set unmatched POST api endpoints order")
+    public void iSetUnmatchedPOSTApiEndpointsOrder() {
+        nPostOrder.iSetUnmatchedPOSTApiEndpointsOrder();
+    }
+
 }

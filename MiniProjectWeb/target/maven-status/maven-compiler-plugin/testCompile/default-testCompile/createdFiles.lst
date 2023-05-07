@@ -1,0 +1,9 @@
+starter\CucumberTestSuite.class
+starter\stepdefinitions\UserSteps.class
+starter\user\SelectCategoryPage.class
+starter\user\BuyProductPage.class
+starter\user\ProductDetailPage.class
+starter\user\TransactionPage.class
+starter\user\RegisterPage.class
+starter\user\LoginPage.class
+starter\user\PaymentPage.class

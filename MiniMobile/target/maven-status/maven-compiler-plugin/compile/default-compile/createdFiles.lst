@@ -1,0 +1,3 @@
+test\automation\driver\DriverPool.class
+test\automation\pageObject\BasePageObject.class
+test\automation\driver\AndroidDriverPool.class
