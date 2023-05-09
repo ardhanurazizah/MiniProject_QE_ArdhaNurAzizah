@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"As a user","as a user I want to login with invalid password","SUCCESS","2023-05-09T06:33:59.779271+07:00[Asia/Bangkok]","0.0","9.57"
-"As a user","as a user I want to login with invalid password and email","SUCCESS","2023-05-09T06:34:10.6063136+07:00[Asia/Bangkok]","0.0","9.68"
