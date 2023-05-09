@@ -23,6 +23,6 @@ public class GetProductComments {
     }
     @Step("I receive valid data for product comments")
     public void iReceiveValidDataForProductComments(){
-        restAssuredThat(response -> response.body("data[0].ID", equalTo(12887)));
+        restAssuredThat(response -> response.body("data[0].ID", equalTo(14482)));
     }
 }

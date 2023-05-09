@@ -23,6 +23,6 @@ public class GetIndex {
     }
     @Step("I receive valid data for index")
     public void iReceiveValidDataForIndex(){
-        restAssuredThat(response -> response.body("data[0].ID", equalTo(12887)));
+        restAssuredThat(response -> response.body("data[0].ID", equalTo(14482)));
     }
 }

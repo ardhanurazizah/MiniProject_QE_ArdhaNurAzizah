@@ -1,2 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"As a user","as a user I want to login and successfully","ERROR","2023-05-07T11:48:40.2217991+07:00[Asia/Bangkok]","0.0","6.55"
+"As a user","as a user I want to register and successfully","SUCCESS","2023-05-09T12:04:40.8148936+07:00[Asia/Bangkok]","0.0","16.07"
+"As a user","as a user I want to login and successfully","SUCCESS","2023-05-09T12:04:56.9032228+07:00[Asia/Bangkok]","0.0","16.34"

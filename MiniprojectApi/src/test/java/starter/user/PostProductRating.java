@@ -45,6 +45,6 @@ public class PostProductRating {
     }
     @Step("I receive valid data for rating")
     public void iReceiveValidDataForRating(){
-        restAssuredThat(response -> response.body("data[0].Name", equalTo("Enormous Cotton Computer")));
+        restAssuredThat(response -> response.body("data[0].Name", equalTo("description")));
     }
 }

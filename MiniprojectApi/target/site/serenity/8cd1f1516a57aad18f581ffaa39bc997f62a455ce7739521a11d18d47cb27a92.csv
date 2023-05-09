@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"User","GET - As admin I cannot get index","FAILURE","2023-05-06T12:44:21.8532552+07:00[Asia/Bangkok]","0.0","0.41"
+"User","GET - As admin I cannot get index","SUCCESS","2023-05-09T05:47:41.8713608+07:00[Asia/Bangkok]","0.0","0.63"

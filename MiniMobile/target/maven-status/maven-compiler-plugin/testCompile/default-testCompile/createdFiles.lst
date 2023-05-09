@@ -1,3 +1,14 @@
 starter\screen\loginScreen.class
-CucumberTestSuite.class
+starter\stepdefinitions\transactionHistorySteps.class
+starter\stepdefinitions\purchaseSteps.class
+starter\screen\registerScreen.class
+starter\screen\purchaseScreen.class
+starter\screen\logoutScreen.class
 starter\stepdefinitions\loginSteps.class
+starter\screen\shoppingCartScreen.class
+CucumberTestSuite.class
+starter\stepdefinitions\logoutSteps.class
+starter\stepdefinitions\registerSteps.class
+starter\stepdefinitions\shoppingCartSteps.class
+starter\screen\invalidLoginScreen.class
+starter\screen\transactionHistoryScreen.class

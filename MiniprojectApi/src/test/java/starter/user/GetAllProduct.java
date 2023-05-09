@@ -23,6 +23,6 @@ public class GetAllProduct {
     }
     @Step("I receive valid data for all products")
     public void iReceiveValidDataForAllProducts(){
-        restAssuredThat(response -> response.body("data[0].Name", equalTo("Enormous Cotton Computer")));
+        restAssuredThat(response -> response.body("data[0].Name", equalTo("description")));
     }
 }

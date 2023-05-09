@@ -23,6 +23,6 @@ public class GetUser {
     }
     @Step("I receive valid data for user information")
     public void iReceiveValidDataForUserInformation(){
-        restAssuredThat(response -> response.body("data[0].ID", equalTo(12887)));
+        restAssuredThat(response -> response.body("data[0].ID", equalTo(14482)));
     }
 }

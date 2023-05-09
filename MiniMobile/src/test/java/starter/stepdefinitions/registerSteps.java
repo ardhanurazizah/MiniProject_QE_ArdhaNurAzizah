@@ -26,3 +26,4 @@ public class registerSteps {
         registerSteps.userClickRegisterButton();
     }
 }
+

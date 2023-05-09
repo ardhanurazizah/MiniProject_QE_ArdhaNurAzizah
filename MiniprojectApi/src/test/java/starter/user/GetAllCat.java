@@ -23,6 +23,6 @@ public class GetAllCat {
     }
     @Step("I receive valid data for all categories")
     public void iReceiveValidDataForAllCategories(){
-        restAssuredThat(response -> response.body("data[0].ID", equalTo(12887)));
+        restAssuredThat(response -> response.body("data[0].ID", equalTo(14482)));
     }
 }

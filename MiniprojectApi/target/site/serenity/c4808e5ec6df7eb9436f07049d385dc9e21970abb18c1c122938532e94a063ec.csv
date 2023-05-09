@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"User","GET - As admin I cannot get product ratings","FAILURE","2023-05-06T12:44:02.0890425+07:00[Asia/Bangkok]","0.0","0.71"
+"User","GET - As admin I cannot get product ratings","SUCCESS","2023-05-09T05:47:22.9656265+07:00[Asia/Bangkok]","0.0","0.65"

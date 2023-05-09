@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"User","DELETE - As admin cannot delete product categories","FAILURE","2023-05-06T12:44:16.7068094+07:00[Asia/Bangkok]","0.0","0.29"
+"User","DELETE - As admin cannot delete product categories","SUCCESS","2023-05-09T05:47:35.2134886+07:00[Asia/Bangkok]","0.0","0.38"

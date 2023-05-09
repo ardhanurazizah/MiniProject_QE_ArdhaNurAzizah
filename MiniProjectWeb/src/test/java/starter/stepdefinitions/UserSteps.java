@@ -38,12 +38,12 @@ public class UserSteps {
 
     @And("user enter a valid full name")
     public void userEnterAValidFullName() {
-        registerPage.userEnterAValidFullName("zuzu");
+        registerPage.userEnterAValidFullName("denise");
     }
 
     @And("user enter a valid email")
     public void userEnterAValidEmail() {
-        registerPage.userEnterAValidEmail("zuzu@gmail.com");
+        registerPage.userEnterAValidEmail("denise@gmail.com");
     }
 
     @And("user enter a valid password")
